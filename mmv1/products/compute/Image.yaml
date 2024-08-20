@@ -161,8 +161,7 @@ properties:
         name: 'kmsKeySelfLink'
         api_name: 'kmsKeyName'
         description: |
-          The self link of the encryption key that is stored in Google Cloud
-          KMS.
+          UPDATED: THIS ONE WORKS!
         custom_flatten: 'templates/terraform/custom_flatten/image_kms_key_name.go.erb'
         diff_suppress_func: 'tpgresource.CompareSelfLinkRelativePaths'
       - !ruby/object:Api::Type::String
